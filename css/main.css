@@ -1,0 +1,119 @@
+#navbar{
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+.bomba{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+nav ul{
+    padding: 2rem;
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav h1{
+    padding-top: 1.5rem ;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: rgb(255, 59, 255);
+}
+nav h1:hover{
+    color: rgb(48, 255, 48);
+    background: rgb(255, 59, 255);
+}
+nav ul li a{ 
+    padding: 2rem 2rem;
+    text-decoration: none;
+    color: rgb(255, 59, 255);
+}
+nav ul li a:hover{ 
+    color: rgb(48, 255, 48);
+    background: rgb(255, 59, 255);
+}
+nav ul hr{
+    height: 5rem;
+}
+#peter{
+    width: 5rem;
+    height: 5rem;
+}
+nav div{
+    display: flex;
+    justify-content: space-between;
+}
+#weirdgriffin{
+    max-width: 300px;
+    height: auto;
+    border-radius: 100%;
+    padding: 1rem;
+}
+#home{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: rgb(48, 255, 48) 3px solid;
+    border-radius: 10%;
+    padding: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#home h2,p{
+    text-align: center;
+}
+#home p{
+    z-index: -1;
+    opacity: 0.7;
+    font-style: italic;
+}
+#home a{
+    padding: 0.8rem 3rem;
+    text-decoration: none;
+    background: rgb(48, 255, 48);
+    border-radius: 50%;
+}
+#contents{
+    text-align: center;
+    background: rgb(48, 255, 48);
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+#contents article{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    border-top: rgb(44, 172, 24) 1.5rem solid;
+    border-bottom: rgb(255, 59, 255) 3rem solid;
+}
+#contents img{
+    width: 450px;
+}
+#contents h2{
+    text-align: center;
+}
+#contents p{
+    font-size: 3rem;
+}
+#contents h1{
+    border-bottom: rgb(255, 59, 255) 1.5rem solid;
+}
+#end h2{
+    background: rgb(48, 255, 48);
+    border-bottom: rgb(44, 172, 24) 1.5rem solid;
+}
+#end h1{
+    background: rgb(48, 255, 48);
+}

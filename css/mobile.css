@@ -1,0 +1,46 @@
+#navbar{
+    flex-direction: column;
+    text-align: center;
+}
+nav h1{
+    padding-top: 0.8rem;
+}
+nav h1:hover{
+    color: purple;
+    background: rgb(48, 255, 48);
+}
+nav ul li{
+    text-align: center;
+    display: inline;
+    padding: 0rem;
+}
+nav ul{
+    padding: 0rem;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+nav div{
+    display: flex;
+    justify-content: space-evenly
+}
+#peter{
+    padding-top: 0.2rem;
+    width: 3rem;
+    height: 3rem;
+}
+nav ul li a{ 
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: rgb(255, 59, 255);
+}
+#home{
+    margin-top: 0.5rem;
+    padding: 0;
+}
+#contents img{
+    width: 200px;
+}
+#contents p{
+    font-size: 2rem;
+}

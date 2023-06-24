@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-green{
+    background: rgb(48, 255, 48);
+
+}
+body{
+    background: rgb(255, 59, 255);
+}
